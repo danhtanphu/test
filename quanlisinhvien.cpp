@@ -13,7 +13,6 @@ struct SV{
  
 typedef struct SV* sv;
  
-//Cap phat dong mot node moi voi du lieu la so nguyen x
 sv makeNode(){
 	Student s;
 	cout << "Nhap thong tin sinh vien :\n";
@@ -27,7 +26,6 @@ sv makeNode(){
 	return tmp;
 }
  
-//Kiem tra rong
 bool empty(sv a){
 	return a == NULL;
 }
@@ -158,10 +156,6 @@ void sapxep(sv &a){
 		p->s = tmp;
 	}
 }
- 
-//Tim kiem trong dslk
-//Tim phan tu lon nhat, nho nhat
-//Tim kiem sinh vien theo ten, theo ma, id ...
  
  
 int main(){
